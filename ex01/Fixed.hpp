@@ -3,16 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: siun <siun@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: subpark <subpark@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 18:07:26 by siun              #+#    #+#             */
-/*   Updated: 2024/03/13 18:13:15 by siun             ###   ########.fr       */
+/*   Updated: 2024/03/13 18:49:55 by subpark          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <cmath>
 
 class Fixed
 {
 	private:
 		
 	public:
+		Fixed(const int para);
+		Fixed
 };
