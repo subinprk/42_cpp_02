@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Fixed.hpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: siun <siun@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: subpark <subpark@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 18:07:26 by siun              #+#    #+#             */
-/*   Updated: 2024/03/13 22:49:54 by siun             ###   ########.fr       */
+/*   Updated: 2024/03/14 13:47:40 by subpark          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,4 @@ class Fixed
 
 };
 
-std::ostream &operator<<()
+std::ostream &operator<<(std::ostream &out, Fixed fixed);
